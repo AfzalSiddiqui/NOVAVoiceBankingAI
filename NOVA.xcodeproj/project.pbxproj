@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0932BAD1EBBD4E37F43FF5FB /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405AA7453A01E05F93D0A83 /* KeychainManager.swift */; };
+		0C343FF9DB116155F00F3A00 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72080603345EB41078219688 /* TransactionsViewModel.swift */; };
+		13F2D87613E75A9E36D9F0DF /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328EFAC293E7FD863CD7C790 /* SpeechRecognitionService.swift */; };
+		157FD7DF9DF5D06BA78D5D0F /* VoiceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727A2795307075DF331DE55 /* VoiceCommand.swift */; };
+		1A869405E03265C5967502AE /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C193DB0ABFC5F098AAF1E /* DashboardViewModel.swift */; };
+		2CEA8E0DE034B144EE5BA47A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6E514B4C5488607C3F31C /* Card.swift */; };
+		2D774B0E11F8099BA14F8413 /* IntentClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1376CF857A99600D5A03B70A /* IntentClassifier.swift */; };
+		311F93C23B1FAD31BEF98A20 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9948665ED8446E60A14E223 /* TransactionsView.swift */; };
+		312B48B2ADB8816D4E2C1170 /* VoiceAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F352CEEE84E06B41970F68 /* VoiceAssistantView.swift */; };
+		336E8380C6A8AFBA74BE7F37 /* ProcessVoiceCommandUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C87500645CFC94D7566C71 /* ProcessVoiceCommandUseCase.swift */; };
+		4024F37224B22D0DC93313F3 /* FinancialInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B1A31C6477AB593351087D /* FinancialInsight.swift */; };
+		402FCE37181E6A36FF1781DB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C1F999D7B6D3D48233C88 /* NetworkClient.swift */; };
+		42B556F5209794873E45CCE0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881B09992ECA7757CCAD154 /* DashboardView.swift */; };
+		442D7D93D97E245596853A04 /* TransferMoneyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82679AA6009133C110FC0BF /* TransferMoneyUseCase.swift */; };
+		4FAE80AD29D3122EEE278419 /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76401CC9A98F84C09107A497 /* TransactionRepository.swift */; };
+		5182AC41AD720522D63824D0 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D18B03CAC0E17B270A7C8 /* CardRepository.swift */; };
+		559BA05BBEBF11C1AA859BE1 /* VoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B56DD6A9D51C03EE268F8A /* VoiceActivityDetector.swift */; };
+		5729661382BD63FB11286E8B /* SecureEnclaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70786F076221677F76980F7 /* SecureEnclaveManager.swift */; };
+		57A6573BF92A3C1BE7236C52 /* WealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762465B4EB230F671EDCD6B1 /* WealthView.swift */; };
+		6155AE8BDBDF78A826177007 /* SecurityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94FA018641461F502B37AC /* SecurityViewModel.swift */; };
+		67197A5469223F320E23739C /* SecureStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656489E1C573E61B945EE1A /* SecureStorageManager.swift */; };
+		69CE9A0A7D0621EF2A9BB0E2 /* CardRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCD7EC72574AA73A3C75EB /* CardRepositoryProtocol.swift */; };
+		6F388FBE6D1D7D545FFBFA8C /* RAGEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E8E02E7309B9FC1AE15975 /* RAGEngine.swift */; };
+		841210DBD0FBCCED74738ABB /* AudioEngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343F8748258C3E303453098 /* AudioEngineManager.swift */; };
+		84882EBAA5A3AC019DDC9FBB /* NOVAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0DEE7B42AE7AA9DD27F3D1 /* NOVAApp.swift */; };
+		8636C4D21A2E38A200B577A3 /* NLPProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2876DD7F3A48FC02ADFD3 /* NLPProcessor.swift */; };
+		9967584D9B078DD016021B48 /* AnalyzeSpendingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBC571B9EC306D76AF3F67 /* AnalyzeSpendingUseCase.swift */; };
+		9A17CF0E8DC8AE7C626CF541 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDE0597C17F41166345CDEC /* Transaction.swift */; };
+		9A207C65ED7DA84BDFC65089 /* BiometricAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A1133C129F07C6BD43273 /* BiometricAuthManager.swift */; };
+		9FBD05BC6EC0DB3205CBFF17 /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEB8A47883CB2F4715331A /* SecurityView.swift */; };
+		A1C4475D4B09D201842E0256 /* WealthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0972D3F6EB8F274D71600DC3 /* WealthRepository.swift */; };
+		A1D3674B646A53E9F49FE4B2 /* AIResponseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B0E18DCA616A80038E549 /* AIResponseGenerator.swift */; };
+		A3E80DFBA80685EA4FEF1B07 /* FraudScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB381A1785EFC8BF383D522 /* FraudScore.swift */; };
+		A78370BB0CBF9AAB7D6B009C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2D22F17884202A0035AA8 /* Account.swift */; };
+		ABE2A99F64AC9630C29A621F /* WealthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781DA23E1EF90BBB41B3C16 /* WealthViewModel.swift */; };
+		ABE701FDDB1C25F1F2318AEB /* WealthPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617B94C5B113380F1E5479D /* WealthPortfolio.swift */; };
+		B082CAACD89C387C0535949E /* AudioBufferProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CD544D044A98FDC29F8 /* AudioBufferProcessor.swift */; };
+		B18EA40660B7F87C4DE6E05C /* VoiceAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9AD2FEA8C2EBA6D8F47DFD /* VoiceAuthenticationService.swift */; };
+		B529CBCEE90361BE348FDB47 /* GetTransactionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3261D3D76FEF0C70BA635AD /* GetTransactionsUseCase.swift */; };
+		BA7323531E4F42E0FEA7A628 /* TransactionRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866CC354D51622B2A0047D1 /* TransactionRepositoryProtocol.swift */; };
+		C44685E064F38D7640310766 /* FFTAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99D42F00C2C01FA1CCD3DC /* FFTAnalyzer.swift */; };
+		C5D7DE046637AB68BAD96CA2 /* FraudDetectionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC4192C3895E770179AE2A /* FraudDetectionUseCase.swift */; };
+		C7D40A2D18F11939F3B3BF19 /* WealthRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3643EC0318661E2FEB21F642 /* WealthRepositoryProtocol.swift */; };
+		D3F81C23DF49798EDEC5A251 /* BankingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413297199449F6C7EEB4D6C3 /* BankingRepository.swift */; };
+		D9AB4BFCFCB3D80ECC498096 /* BankingIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C1B016E650E8F4946C6E8 /* BankingIntent.swift */; };
+		DC57F67D421550F258AD4B9D /* GetBalanceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30982F6882601EFF3F0F572 /* GetBalanceUseCase.swift */; };
+		E0BC88465BE99B5864B750F2 /* TextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB39614EE03DE1E1725000 /* TextToSpeechService.swift */; };
+		E316492BD6A36766BBDC51EB /* VoiceAssistantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51A9E94A67478EE62B9773 /* VoiceAssistantViewModel.swift */; };
+		EF103147866F8C9CB382E425 /* BankingRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE5FB97D4A9A0B87811125 /* BankingRepositoryProtocol.swift */; };
+		F1EDC41F5345D6AD9E29EAA4 /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D91CC76D1B4BA182CF37A /* EncryptionService.swift */; };
+		F5B73FA2587CE3FC146842E3 /* FinancialAdvisorUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC22E91D0F960BDD1B5D29 /* FinancialAdvisorUseCase.swift */; };
+		F98BD0054434AC95227D8092 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14B018946714DD17FDA21C /* DependencyContainer.swift */; };
+		FC0AA2C9BA65D95A5BF157ED /* FreezeCardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61E404CF5B5D5CF964F44A /* FreezeCardUseCase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD1F8527F7D5DDE65F65156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85ABC841E135970C6BF3655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6A03B79F180D84F90C6AB5A;
+			remoteInfo = NOVA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0866CC354D51622B2A0047D1 /* TransactionRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepositoryProtocol.swift; sourceTree = "<group>"; };
+		086A1133C129F07C6BD43273 /* BiometricAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthManager.swift; sourceTree = "<group>"; };
+		0972D3F6EB8F274D71600DC3 /* WealthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthRepository.swift; sourceTree = "<group>"; };
+		0EB6E514B4C5488607C3F31C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1376CF857A99600D5A03B70A /* IntentClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentClassifier.swift; sourceTree = "<group>"; };
+		15F352CEEE84E06B41970F68 /* VoiceAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAssistantView.swift; sourceTree = "<group>"; };
+		1BB381A1785EFC8BF383D522 /* FraudScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudScore.swift; sourceTree = "<group>"; };
+		2405AA7453A01E05F93D0A83 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		2656489E1C573E61B945EE1A /* SecureStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorageManager.swift; sourceTree = "<group>"; };
+		2881B09992ECA7757CCAD154 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		2DEC22E91D0F960BDD1B5D29 /* FinancialAdvisorUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAdvisorUseCase.swift; sourceTree = "<group>"; };
+		2E99D42F00C2C01FA1CCD3DC /* FFTAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTAnalyzer.swift; sourceTree = "<group>"; };
+		30EC4192C3895E770179AE2A /* FraudDetectionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudDetectionUseCase.swift; sourceTree = "<group>"; };
+		328EFAC293E7FD863CD7C790 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		330C1B016E650E8F4946C6E8 /* BankingIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingIntent.swift; sourceTree = "<group>"; };
+		3643EC0318661E2FEB21F642 /* WealthRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthRepositoryProtocol.swift; sourceTree = "<group>"; };
+		3A2B0E18DCA616A80038E549 /* AIResponseGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIResponseGenerator.swift; sourceTree = "<group>"; };
+		3C8CBAA986434101F019745C /* NOVA.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NOVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413297199449F6C7EEB4D6C3 /* BankingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingRepository.swift; sourceTree = "<group>"; };
+		49D57CCD96E6DCA0734D32B3 /* NOVATests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NOVATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A94FA018641461F502B37AC /* SecurityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewModel.swift; sourceTree = "<group>"; };
+		5781DA23E1EF90BBB41B3C16 /* WealthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthViewModel.swift; sourceTree = "<group>"; };
+		5CE2D22F17884202A0035AA8 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6A0DEE7B42AE7AA9DD27F3D1 /* NOVAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOVAApp.swift; sourceTree = "<group>"; };
+		6EF2876DD7F3A48FC02ADFD3 /* NLPProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPProcessor.swift; sourceTree = "<group>"; };
+		72080603345EB41078219688 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		762465B4EB230F671EDCD6B1 /* WealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthView.swift; sourceTree = "<group>"; };
+		76401CC9A98F84C09107A497 /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		78E8E02E7309B9FC1AE15975 /* RAGEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAGEngine.swift; sourceTree = "<group>"; };
+		7E2C193DB0ABFC5F098AAF1E /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		85B56DD6A9D51C03EE268F8A /* VoiceActivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceActivityDetector.swift; sourceTree = "<group>"; };
+		8B14B018946714DD17FDA21C /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		8D51A9E94A67478EE62B9773 /* VoiceAssistantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAssistantViewModel.swift; sourceTree = "<group>"; };
+		8DCCD7EC72574AA73A3C75EB /* CardRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepositoryProtocol.swift; sourceTree = "<group>"; };
+		9CDE0597C17F41166345CDEC /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A09C1F999D7B6D3D48233C88 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		A30982F6882601EFF3F0F572 /* GetBalanceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceUseCase.swift; sourceTree = "<group>"; };
+		A39D18B03CAC0E17B270A7C8 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+		AADE5FB97D4A9A0B87811125 /* BankingRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingRepositoryProtocol.swift; sourceTree = "<group>"; };
+		AF9AD2FEA8C2EBA6D8F47DFD /* VoiceAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAuthenticationService.swift; sourceTree = "<group>"; };
+		B2CB39614EE03DE1E1725000 /* TextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechService.swift; sourceTree = "<group>"; };
+		B617B94C5B113380F1E5479D /* WealthPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthPortfolio.swift; sourceTree = "<group>"; };
+		B9948665ED8446E60A14E223 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		BBDBC571B9EC306D76AF3F67 /* AnalyzeSpendingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeSpendingUseCase.swift; sourceTree = "<group>"; };
+		C6F84CD544D044A98FDC29F8 /* AudioBufferProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBufferProcessor.swift; sourceTree = "<group>"; };
+		D343F8748258C3E303453098 /* AudioEngineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineManager.swift; sourceTree = "<group>"; };
+		D5C87500645CFC94D7566C71 /* ProcessVoiceCommandUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessVoiceCommandUseCase.swift; sourceTree = "<group>"; };
+		D727A2795307075DF331DE55 /* VoiceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommand.swift; sourceTree = "<group>"; };
+		D82679AA6009133C110FC0BF /* TransferMoneyUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyUseCase.swift; sourceTree = "<group>"; };
+		DC2D91CC76D1B4BA182CF37A /* EncryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		E01CA84557492F4E1424B6B7 /* NOVA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NOVA.entitlements; sourceTree = "<group>"; };
+		E3261D3D76FEF0C70BA635AD /* GetTransactionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsUseCase.swift; sourceTree = "<group>"; };
+		E70786F076221677F76980F7 /* SecureEnclaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveManager.swift; sourceTree = "<group>"; };
+		E9BEB8A47883CB2F4715331A /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		F1B1A31C6477AB593351087D /* FinancialInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialInsight.swift; sourceTree = "<group>"; };
+		FC61E404CF5B5D5CF964F44A /* FreezeCardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezeCardUseCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00D736FF3749B594CE6A370D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		066F53CC161026ECFAD0495F = {
+			isa = PBXGroup;
+			children = (
+				0DE432CF46974DA8E6314758 /* NOVA */,
+				A8DFFCCC8FEE16D16D8D706C /* NOVATests */,
+				ACCBBAA22EA8C2D92A1AC1D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE432CF46974DA8E6314758 /* NOVA */ = {
+			isa = PBXGroup;
+			children = (
+				E01CA84557492F4E1424B6B7 /* NOVA.entitlements */,
+				3BFC8685C56579600B6AB6F9 /* App */,
+				6E261DD59B79AEDE532CFECC /* Core */,
+				B24D049E092F41AA3561AB53 /* Data */,
+				9F5EEA4A0CF95A3EE26E0238 /* Domain */,
+				7A67719F66787DA03723F2C6 /* Features */,
+				79C7FB500DF9C0E12CE5225C /* Resources */,
+			);
+			path = NOVA;
+			sourceTree = "<group>";
+		};
+		170C2C87389319B52C8AF7A9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1902E1FF60B34B08B7FA350E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CE2D22F17884202A0035AA8 /* Account.swift */,
+				330C1B016E650E8F4946C6E8 /* BankingIntent.swift */,
+				0EB6E514B4C5488607C3F31C /* Card.swift */,
+				F1B1A31C6477AB593351087D /* FinancialInsight.swift */,
+				1BB381A1785EFC8BF383D522 /* FraudScore.swift */,
+				9CDE0597C17F41166345CDEC /* Transaction.swift */,
+				D727A2795307075DF331DE55 /* VoiceCommand.swift */,
+				B617B94C5B113380F1E5479D /* WealthPortfolio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BDA327567DFA4EDBABE5B83 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2881B09992ECA7757CCAD154 /* DashboardView.swift */,
+				7E2C193DB0ABFC5F098AAF1E /* DashboardViewModel.swift */,
+				B56D6533B257DA6A24EAED22 /* ViewModels */,
+				98E3F6E81C799771EF0D899C /* Views */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		22A0E4328143811DF31CB0D5 /* Wealth */ = {
+			isa = PBXGroup;
+			children = (
+				762465B4EB230F671EDCD6B1 /* WealthView.swift */,
+				5781DA23E1EF90BBB41B3C16 /* WealthViewModel.swift */,
+				6DA92B7BAF796ADCB3AF6C8D /* ViewModels */,
+				341949F8083B7ED5B0B0F17D /* Views */,
+			);
+			path = Wealth;
+			sourceTree = "<group>";
+		};
+		240F57F726CDC8C1938E7B19 /* VoiceAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				15F352CEEE84E06B41970F68 /* VoiceAssistantView.swift */,
+				8D51A9E94A67478EE62B9773 /* VoiceAssistantViewModel.swift */,
+				170C2C87389319B52C8AF7A9 /* ViewModels */,
+				E0876CECD6FAAB06F84CF9FB /* Views */,
+			);
+			path = VoiceAssistant;
+			sourceTree = "<group>";
+		};
+		2BC43AB1A6BC48EAC80C1BE9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A09C1F999D7B6D3D48233C88 /* NetworkClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D71800A5A6A0B8FBFCC80EA /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				086A1133C129F07C6BD43273 /* BiometricAuthManager.swift */,
+				DC2D91CC76D1B4BA182CF37A /* EncryptionService.swift */,
+				2405AA7453A01E05F93D0A83 /* KeychainManager.swift */,
+				E70786F076221677F76980F7 /* SecureEnclaveManager.swift */,
+				2656489E1C573E61B945EE1A /* SecureStorageManager.swift */,
+				AF9AD2FEA8C2EBA6D8F47DFD /* VoiceAuthenticationService.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		341949F8083B7ED5B0B0F17D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BFC8685C56579600B6AB6F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8B14B018946714DD17FDA21C /* DependencyContainer.swift */,
+				6A0DEE7B42AE7AA9DD27F3D1 /* NOVAApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3E0FBD1141D2F7FC734D1520 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		45A698FB830873B681643802 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		46DEFD773E12901FB175BDA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		67151ADDDF98F13DAB488D6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C7F2C74EECE24F32A345B39 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B0E18DCA616A80038E549 /* AIResponseGenerator.swift */,
+				1376CF857A99600D5A03B70A /* IntentClassifier.swift */,
+				6EF2876DD7F3A48FC02ADFD3 /* NLPProcessor.swift */,
+				78E8E02E7309B9FC1AE15975 /* RAGEngine.swift */,
+				328EFAC293E7FD863CD7C790 /* SpeechRecognitionService.swift */,
+				B2CB39614EE03DE1E1725000 /* TextToSpeechService.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		6DA92B7BAF796ADCB3AF6C8D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6E261DD59B79AEDE532CFECC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6C7F2C74EECE24F32A345B39 /* AI */,
+				7888C70B0806F4CE632FA503 /* Audio */,
+				2BC43AB1A6BC48EAC80C1BE9 /* Networking */,
+				2D71800A5A6A0B8FBFCC80EA /* Security */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7888C70B0806F4CE632FA503 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C6F84CD544D044A98FDC29F8 /* AudioBufferProcessor.swift */,
+				D343F8748258C3E303453098 /* AudioEngineManager.swift */,
+				2E99D42F00C2C01FA1CCD3DC /* FFTAnalyzer.swift */,
+				85B56DD6A9D51C03EE268F8A /* VoiceActivityDetector.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7906DB1333DB3B8AE04403D9 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		79C7FB500DF9C0E12CE5225C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A67719F66787DA03723F2C6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA327567DFA4EDBABE5B83 /* Dashboard */,
+				822D2813B89F3E017691BA01 /* Security */,
+				D1F1F0DE0EFEB7A6A5F78D71 /* Transactions */,
+				240F57F726CDC8C1938E7B19 /* VoiceAssistant */,
+				22A0E4328143811DF31CB0D5 /* Wealth */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		822D2813B89F3E017691BA01 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				E9BEB8A47883CB2F4715331A /* SecurityView.swift */,
+				4A94FA018641461F502B37AC /* SecurityViewModel.swift */,
+				46DEFD773E12901FB175BDA5 /* ViewModels */,
+				67151ADDDF98F13DAB488D6A /* Views */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		84967EE47FD9EE704DFD43D2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				BBDBC571B9EC306D76AF3F67 /* AnalyzeSpendingUseCase.swift */,
+				2DEC22E91D0F960BDD1B5D29 /* FinancialAdvisorUseCase.swift */,
+				30EC4192C3895E770179AE2A /* FraudDetectionUseCase.swift */,
+				FC61E404CF5B5D5CF964F44A /* FreezeCardUseCase.swift */,
+				A30982F6882601EFF3F0F572 /* GetBalanceUseCase.swift */,
+				E3261D3D76FEF0C70BA635AD /* GetTransactionsUseCase.swift */,
+				D5C87500645CFC94D7566C71 /* ProcessVoiceCommandUseCase.swift */,
+				D82679AA6009133C110FC0BF /* TransferMoneyUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		8F10C6F0B0AB7D4CED73DFF3 /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
+		98E3F6E81C799771EF0D899C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F5EEA4A0CF95A3EE26E0238 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1902E1FF60B34B08B7FA350E /* Models */,
+				E77671B527797ADC80BA5263 /* Repositories */,
+				84967EE47FD9EE704DFD43D2 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A8DFFCCC8FEE16D16D8D706C /* NOVATests */ = {
+			isa = PBXGroup;
+			children = (
+				00D736FF3749B594CE6A370D /* Mocks */,
+				AC4DB993846449AD104B7EF5 /* UI */,
+				7906DB1333DB3B8AE04403D9 /* Unit */,
+			);
+			path = NOVATests;
+			sourceTree = "<group>";
+		};
+		AC4DB993846449AD104B7EF5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ACCBBAA22EA8C2D92A1AC1D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CBAA986434101F019745C /* NOVA.app */,
+				49D57CCD96E6DCA0734D32B3 /* NOVATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16E821FBA13EDB69329501A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				413297199449F6C7EEB4D6C3 /* BankingRepository.swift */,
+				A39D18B03CAC0E17B270A7C8 /* CardRepository.swift */,
+				76401CC9A98F84C09107A497 /* TransactionRepository.swift */,
+				0972D3F6EB8F274D71600DC3 /* WealthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B24D049E092F41AA3561AB53 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FBD1141D2F7FC734D1520 /* LocalStorage */,
+				8F10C6F0B0AB7D4CED73DFF3 /* MockServices */,
+				B16E821FBA13EDB69329501A /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B56D6533B257DA6A24EAED22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D1F1F0DE0EFEB7A6A5F78D71 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				B9948665ED8446E60A14E223 /* TransactionsView.swift */,
+				72080603345EB41078219688 /* TransactionsViewModel.swift */,
+				45A698FB830873B681643802 /* ViewModels */,
+				E19C1B7AAC29CCF54B557D29 /* Views */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		E0876CECD6FAAB06F84CF9FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E19C1B7AAC29CCF54B557D29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E77671B527797ADC80BA5263 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AADE5FB97D4A9A0B87811125 /* BankingRepositoryProtocol.swift */,
+				8DCCD7EC72574AA73A3C75EB /* CardRepositoryProtocol.swift */,
+				0866CC354D51622B2A0047D1 /* TransactionRepositoryProtocol.swift */,
+				3643EC0318661E2FEB21F642 /* WealthRepositoryProtocol.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2B296332AA0943857C5C5A /* NOVATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5C92C4B0A5BF9A6F0C9E94 /* Build configuration list for PBXNativeTarget "NOVATests" */;
+			buildPhases = (
+				2DB7F0A75DDE4C1BA1BE3083 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD954F5195EE8A51B4F6038 /* PBXTargetDependency */,
+			);
+			name = NOVATests;
+			packageProductDependencies = (
+			);
+			productName = NOVATests;
+			productReference = 49D57CCD96E6DCA0734D32B3 /* NOVATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6A03B79F180D84F90C6AB5A /* NOVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EBF5878F7F355D9C01DD3B /* Build configuration list for PBXNativeTarget "NOVA" */;
+			buildPhases = (
+				15C5837CB72ABD86B445C919 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOVA;
+			packageProductDependencies = (
+			);
+			productName = NOVA;
+			productReference = 3C8CBAA986434101F019745C /* NOVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85ABC841E135970C6BF3655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6528917F4015ECB7F434AD6E /* Build configuration list for PBXProject "NOVA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 066F53CC161026ECFAD0495F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACCBBAA22EA8C2D92A1AC1D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A03B79F180D84F90C6AB5A /* NOVA */,
+				8C2B296332AA0943857C5C5A /* NOVATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C5837CB72ABD86B445C919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D3674B646A53E9F49FE4B2 /* AIResponseGenerator.swift in Sources */,
+				A78370BB0CBF9AAB7D6B009C /* Account.swift in Sources */,
+				9967584D9B078DD016021B48 /* AnalyzeSpendingUseCase.swift in Sources */,
+				B082CAACD89C387C0535949E /* AudioBufferProcessor.swift in Sources */,
+				841210DBD0FBCCED74738ABB /* AudioEngineManager.swift in Sources */,
+				D9AB4BFCFCB3D80ECC498096 /* BankingIntent.swift in Sources */,
+				D3F81C23DF49798EDEC5A251 /* BankingRepository.swift in Sources */,
+				EF103147866F8C9CB382E425 /* BankingRepositoryProtocol.swift in Sources */,
+				9A207C65ED7DA84BDFC65089 /* BiometricAuthManager.swift in Sources */,
+				2CEA8E0DE034B144EE5BA47A /* Card.swift in Sources */,
+				5182AC41AD720522D63824D0 /* CardRepository.swift in Sources */,
+				69CE9A0A7D0621EF2A9BB0E2 /* CardRepositoryProtocol.swift in Sources */,
+				42B556F5209794873E45CCE0 /* DashboardView.swift in Sources */,
+				1A869405E03265C5967502AE /* DashboardViewModel.swift in Sources */,
+				F98BD0054434AC95227D8092 /* DependencyContainer.swift in Sources */,
+				F1EDC41F5345D6AD9E29EAA4 /* EncryptionService.swift in Sources */,
+				C44685E064F38D7640310766 /* FFTAnalyzer.swift in Sources */,
+				F5B73FA2587CE3FC146842E3 /* FinancialAdvisorUseCase.swift in Sources */,
+				4024F37224B22D0DC93313F3 /* FinancialInsight.swift in Sources */,
+				C5D7DE046637AB68BAD96CA2 /* FraudDetectionUseCase.swift in Sources */,
+				A3E80DFBA80685EA4FEF1B07 /* FraudScore.swift in Sources */,
+				FC0AA2C9BA65D95A5BF157ED /* FreezeCardUseCase.swift in Sources */,
+				DC57F67D421550F258AD4B9D /* GetBalanceUseCase.swift in Sources */,
+				B529CBCEE90361BE348FDB47 /* GetTransactionsUseCase.swift in Sources */,
+				2D774B0E11F8099BA14F8413 /* IntentClassifier.swift in Sources */,
+				0932BAD1EBBD4E37F43FF5FB /* KeychainManager.swift in Sources */,
+				8636C4D21A2E38A200B577A3 /* NLPProcessor.swift in Sources */,
+				84882EBAA5A3AC019DDC9FBB /* NOVAApp.swift in Sources */,
+				402FCE37181E6A36FF1781DB /* NetworkClient.swift in Sources */,
+				336E8380C6A8AFBA74BE7F37 /* ProcessVoiceCommandUseCase.swift in Sources */,
+				6F388FBE6D1D7D545FFBFA8C /* RAGEngine.swift in Sources */,
+				5729661382BD63FB11286E8B /* SecureEnclaveManager.swift in Sources */,
+				67197A5469223F320E23739C /* SecureStorageManager.swift in Sources */,
+				9FBD05BC6EC0DB3205CBFF17 /* SecurityView.swift in Sources */,
+				6155AE8BDBDF78A826177007 /* SecurityViewModel.swift in Sources */,
+				13F2D87613E75A9E36D9F0DF /* SpeechRecognitionService.swift in Sources */,
+				E0BC88465BE99B5864B750F2 /* TextToSpeechService.swift in Sources */,
+				9A17CF0E8DC8AE7C626CF541 /* Transaction.swift in Sources */,
+				4FAE80AD29D3122EEE278419 /* TransactionRepository.swift in Sources */,
+				BA7323531E4F42E0FEA7A628 /* TransactionRepositoryProtocol.swift in Sources */,
+				311F93C23B1FAD31BEF98A20 /* TransactionsView.swift in Sources */,
+				0C343FF9DB116155F00F3A00 /* TransactionsViewModel.swift in Sources */,
+				442D7D93D97E245596853A04 /* TransferMoneyUseCase.swift in Sources */,
+				559BA05BBEBF11C1AA859BE1 /* VoiceActivityDetector.swift in Sources */,
+				312B48B2ADB8816D4E2C1170 /* VoiceAssistantView.swift in Sources */,
+				E316492BD6A36766BBDC51EB /* VoiceAssistantViewModel.swift in Sources */,
+				B18EA40660B7F87C4DE6E05C /* VoiceAuthenticationService.swift in Sources */,
+				157FD7DF9DF5D06BA78D5D0F /* VoiceCommand.swift in Sources */,
+				ABE701FDDB1C25F1F2318AEB /* WealthPortfolio.swift in Sources */,
+				A1C4475D4B09D201842E0256 /* WealthRepository.swift in Sources */,
+				C7D40A2D18F11939F3B3BF19 /* WealthRepositoryProtocol.swift in Sources */,
+				57A6573BF92A3C1BE7236C52 /* WealthView.swift in Sources */,
+				ABE2A99F64AC9630C29A621F /* WealthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7F0A75DDE4C1BA1BE3083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CD954F5195EE8A51B4F6038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6A03B79F180D84F90C6AB5A /* NOVA */;
+			targetProxy = 2CD1F8527F7D5DDE65F65156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F6F147DFEAE9CD7697270E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOVA/NOVA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nova.banking.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A92FB8C3E6E006938B24FFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "NOVA uses Face ID for secure authentication";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "NOVA needs microphone access for voice banking commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "NOVA needs speech recognition to process your voice commands";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46D965ED688D3FC0CC0FDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nova.banking.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOVA.app/NOVA";
+			};
+			name = Debug;
+		};
+		D3886F037FCCCC3F420D643E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "NOVA uses Face ID for secure authentication";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "NOVA needs microphone access for voice banking commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "NOVA needs speech recognition to process your voice commands";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3A0107B1AEA8C0C3B6970A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOVA/NOVA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nova.banking.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8935AB2C211035D1941EE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nova.banking.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOVA.app/NOVA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EBF5878F7F355D9C01DD3B /* Build configuration list for PBXNativeTarget "NOVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F147DFEAE9CD7697270E9 /* Debug */,
+				D3A0107B1AEA8C0C3B6970A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6528917F4015ECB7F434AD6E /* Build configuration list for PBXProject "NOVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92FB8C3E6E006938B24FFEB /* Debug */,
+				D3886F037FCCCC3F420D643E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A5C92C4B0A5BF9A6F0C9E94 /* Build configuration list for PBXNativeTarget "NOVATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46D965ED688D3FC0CC0FDB0 /* Debug */,
+				E8935AB2C211035D1941EE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85ABC841E135970C6BF3655 /* Project object */;
+}
