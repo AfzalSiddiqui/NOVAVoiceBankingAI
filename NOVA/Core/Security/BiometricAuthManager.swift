@@ -4,6 +4,7 @@
 import LocalAuthentication
 import Foundation
 
+@MainActor
 protocol BiometricAuthManagerProtocol: AnyObject, Sendable {
     func authenticate(reason: String) async throws -> Bool
     func canUseBiometrics() -> BiometricType

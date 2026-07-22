@@ -5,6 +5,7 @@ import Foundation
 import AVFoundation
 import Combine
 
+@MainActor
 protocol VoiceAuthenticationServiceProtocol: AnyObject, Sendable {
     func enrollVoice() async throws -> Bool
     func authenticateVoice() async throws -> Bool
