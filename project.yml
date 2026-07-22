@@ -1,0 +1,58 @@
+name: NOVA
+options:
+  bundleIdPrefix: com.nova.banking
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+    INFOPLIST_KEY_NSMicrophoneUsageDescription: "NOVA needs microphone access for voice banking commands"
+    INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "NOVA needs speech recognition to process your voice commands"
+    INFOPLIST_KEY_NSFaceIDUsageDescription: "NOVA uses Face ID for secure authentication"
+
+targets:
+  NOVA:
+    type: application
+    platform: iOS
+    sources:
+      - path: NOVA
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nova.banking.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_STRICT_CONCURRENCY: complete
+    entitlements:
+      path: NOVA/NOVA.entitlements
+      properties:
+        com.apple.developer.applesignin:
+          - Default
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.nova.banking
+
+  NOVATests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: NOVATests
+        excludes:
+          - "**/.DS_Store"
+    dependencies:
+      - target: NOVA
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nova.banking.tests
+        GENERATE_INFOPLIST_FILE: YES
