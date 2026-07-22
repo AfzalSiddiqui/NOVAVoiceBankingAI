@@ -3,6 +3,7 @@
 
 import AVFoundation
 
+@MainActor
 protocol TextToSpeechServiceProtocol: AnyObject, Sendable {
     func speak(_ text: String) async
     func stop()

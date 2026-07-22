@@ -2,11 +2,12 @@
 // SpeechRecognitionService - Speech-to-text using Apple Speech framework
 
 import Speech
-import AVFoundation
+@preconcurrency import AVFoundation
 import Combine
 
 // MARK: - Protocol
 
+@MainActor
 protocol SpeechRecognitionServiceProtocol: AnyObject, Sendable {
     func requestAuthorization() async -> Bool
     func startTranscribing(audioEngine: AVAudioEngine) async throws
@@ -45,7 +46,7 @@ final class SpeechRecognitionService: NSObject, ObservableObject, SpeechRecognit
     private let speechRecognizer: SFSpeechRecognizer?
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
-    private let transcriptionSubject = PassthroughSubject<TranscriptionResult, Never>()
+    nonisolated(unsafe) let transcriptionSubject = PassthroughSubject<TranscriptionResult, Never>()
 
     nonisolated var transcriptionPublisher: AnyPublisher<TranscriptionResult, Never> {
         transcriptionSubject.eraseToAnyPublisher()
