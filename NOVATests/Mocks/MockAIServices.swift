@@ -6,7 +6,7 @@ import Combine
 import AVFoundation
 @testable import NOVA
 
-final class MockIntentClassifier: IntentClassifierProtocol, Sendable {
+final class MockIntentClassifier: IntentClassifierProtocol, @unchecked Sendable {
     var mockResult = IntentClassificationResult.mock
 
     func classify(text: String) async -> IntentClassificationResult {
@@ -14,7 +14,7 @@ final class MockIntentClassifier: IntentClassifierProtocol, Sendable {
     }
 }
 
-final class MockAIResponseGenerator: AIResponseGeneratorProtocol, Sendable {
+final class MockAIResponseGenerator: AIResponseGeneratorProtocol, @unchecked Sendable {
     var mockResponse = AIResponse(text: "Mock response", suggestions: ["Option 1"])
 
     func generateResponse(for intent: BankingIntent, context: ResponseContext) async -> AIResponse {
