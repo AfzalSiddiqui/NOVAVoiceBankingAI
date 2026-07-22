@@ -142,8 +142,11 @@ final class DependencyContainer: ObservableObject, Sendable {
 
 // MARK: - Environment Key
 
+@MainActor
 struct DependencyContainerKey: EnvironmentKey {
-    static let defaultValue = DependencyContainer.shared
+    nonisolated static var defaultValue: DependencyContainer {
+        MainActor.assumeIsolated { DependencyContainer.shared }
+    }
 }
 
 extension EnvironmentValues {
