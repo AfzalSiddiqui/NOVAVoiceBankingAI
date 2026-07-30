@@ -1,6 +1,6 @@
 # NOVA Voice Banking AI
 
-## AI-Powered Conversational Banking Assistant for Modern Digital Banking
+## AI-Powered Conversational Banking Assistant for  Modern Digital Banking
 
 NOVA Voice Banking AI is a next-generation iOS banking application that enables users to interact with financial services using natural voice commands.
 
